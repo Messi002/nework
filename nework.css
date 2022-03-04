@@ -1,0 +1,22 @@
+.img{
+    background-image: url("./mountains2.jpg");
+    background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   filter:grayscale(100%);
+ 
+   height: 580px;
+  
+  
+}
+.tex{
+   font-size: 10px;
+     position: absolute;
+    border: 10px solid orange;
+    width: 700px;
+    padding-left: 400px;
+    margin-left: -400px;
+    margin-top: 180px;
+    
+  
+}

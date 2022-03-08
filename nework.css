@@ -3,20 +3,24 @@
     background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
-   filter:grayscale(100%);
- 
+   /* filter:grayscale(100%); */
+  padding: 0;
    height: 580px;
   
   
 }
 .tex{
    font-size: 10px;
-     position: absolute;
+    position: absolute;
     border: 10px solid orange;
     width: 700px;
     padding-left: 400px;
     margin-left: -400px;
     margin-top: 180px;
-    
-  
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
 }
